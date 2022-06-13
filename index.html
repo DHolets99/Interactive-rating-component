@@ -1,95 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Interactive rating component</title>
 
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
 
-  <!-- Rating state start -->
-  
-  <div class="main">
-    <div class="wrapper_screen">
-      <div class="container">
-        <div class="wrapper">
-          <div class="star">
-            <div class="star_icon">
-              <img src="./images/icon-star.svg" alt="Star" class="star_thumb">
+    <!-- Rating state start -->
+    
+    <main class="main">
+      <div class="wrapper_screen">
+        <div class="container">
+          <div class="wrapper">
+            <div class="star">
+              <div class="star_icon">
+                <img src="./images/icon-star.svg" alt="Star" class="star_thumb">
+              </div>
             </div>
-          </div>
-          <div class="inform">
-            <div class="caption">
-              <h1 class="caption_title">How did we do?</h1>
+            <div class="inform">
+              <div class="caption">
+                <h1 class="caption_title">How did we do?</h1>
+              </div>
+              <div class="description">
+                <p class="description_text">Please let us know how we did with your support request. All feedback is appreciated 
+                  to help us improve our offering!</p>
+              </div>
             </div>
-            <div class="description">
-              <p class="description_text">Please let us know how we did with your support request. All feedback is appreciated 
-                to help us improve our offering!</p>
-            </div>
-          </div>
-          <form class="rating">
-            <div class="rating_variants">
-              <input type="text" class="rating_el" placeholder="1" readonly>
-              <input type="text" class="rating_el" placeholder="2" readonly>
-              <input type="text" class="rating_el" placeholder="3" readonly>
-              <input type="text" class="rating_el" placeholder="4" readonly>
-              <input type="text" class="rating_el" placeholder="5" readonly>
-            </div>
-            <div class="btn">
-              <input type="submit" value="submit" class="btn_submit">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<!-- Rating state end -->
-
-<!-- Thank you state start -->
-
-  <div class="card">
-    <div class="wrapper_screen">
-      <div class="container">
-        <div class="wrapper wrapper_card">
-          <div class="card_pic">
-            <img src="./images/illustration-thank-you.svg" alt="Thank you thumbnail" class="card_thumb">
-          </div>
-          <div class="selected">
-            <p class="selected_text">You selected &nbsp;<span class="mark"></span> out of &nbsp;5</p>
-          </div>
-          <div class="inform inform_card">
-            <div class="caption">
-              <h1 class="caption_title">Thank you!</h1>
-            </div>
-            <div class="description">
-              <p class="description_text">We appreciate you taking the time to give a rating. If you ever need more support, 
-                don’t hesitate to get in touch!</p>
-            </div>
+            <form class="rating">
+              <div class="rating_variants">
+                <input type="text" class="rating_el" placeholder="1" readonly>
+                <input type="text" class="rating_el" placeholder="2" readonly>
+                <input type="text" class="rating_el" placeholder="3" readonly>
+                <input type="text" class="rating_el" placeholder="4" readonly>
+                <input type="text" class="rating_el" placeholder="5" readonly>
+              </div>
+              <div class="btn">
+                <input type="submit" value="submit" class="btn_submit">
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </main>
 
-<!-- Thank you state end -->
+  <!-- Rating state end -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  
-  <script src="./js/main.min.js"></script>
-</body>
+  <!-- Thank you state start -->
+
+    <section class="card">
+      <div class="wrapper_screen">
+        <div class="container">
+          <div class="wrapper wrapper_card">
+            <div class="card_pic">
+              <img src="./images/illustration-thank-you.svg" alt="Thank you thumbnail" class="card_thumb">
+            </div>
+            <div class="selected">
+              <p class="selected_text">You selected &nbsp;<span class="mark"></span> out of &nbsp;5</p>
+            </div>
+            <div class="inform inform_card">
+              <div class="caption">
+                <h1 class="caption_title">Thank you!</h1>
+              </div>
+              <div class="description">
+                <p class="description_text">We appreciate you taking the time to give a rating. If you ever need more support, 
+                  don’t hesitate to get in touch!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Thank you state end -->
+
+    
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
+    
+    <script src="./js/main.min.js"></script>
+  </body>
 </html>
