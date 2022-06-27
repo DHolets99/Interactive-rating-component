@@ -27,6 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![](./screenshot_2.jpg)
 
 ### Links
 
@@ -44,18 +45,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have improved my skills in JS. Especially in cases where event listeners and bubbling should be used.
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
 const proudOfThisFunc = () => {
   console.log('🎉')
@@ -65,6 +57,6 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Add your name here](https://dholets99.github.io/Interactive-rating-component/)
-- Frontend Mentor - [@DHolets99](https://www.frontendmentor.io/profile/yourusername)
+- Website - [dholets99](https://dholets99.github.io/Interactive-rating-component/)
+- Frontend Mentor - [@DHolets99](https://www.frontendmentor.io/profile/DHolets99)
 
