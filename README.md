@@ -11,10 +11,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://dholets99.github.io/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://github.com/DHolets99/Interactive-rating-component)
+- Solution URL: [https://github.com/DHolets99/Interactive-rating-component]
+- Live Site URL: [https://dholets99.github.io/Interactive-rating-component]
 
 ## My process
 
