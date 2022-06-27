@@ -48,13 +48,6 @@ Users should be able to:
 I have improved my skills in JS. Especially in cases where event listeners and bubbling should be used.
 
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
 ## Author
 
 - Website - [dholets99](https://dholets99.github.io/Interactive-rating-component/)
